@@ -14,7 +14,7 @@ echo "@tailwind base; @tailwind components; @tailwind utilities;" > src/styles/t
 
 curl "https://raw.githubusercontent.com/KoenvdStroom/svelte-setup/master/package.json" > package.json
 
-echo " <script>import \"../styles/tailwind-output.css\";</script>" > src/routes/__layout.svelte
+echo " <script>import \"../styles/tailwind-output.css\";</script> <section><slot/></section>" > src/routes/__layout.svelte
 
 curl "https://raw.githubusercontent.com/KoenvdStroom/svelte-setup/master/tailwind.config.cjs" > tailwind.config.cjs
 
