@@ -19,6 +19,6 @@ npx tailwindcss init tailwind.config.cjs
 @tailwind components;
 @tailwind utilities;" > src/styles/tailwind.css
 
-curl "url" > package.json
+curl "https://raw.githubusercontent.com/KoenvdStroom/svelte-setup/master/package.json" > package.json
 
 yarn dev
