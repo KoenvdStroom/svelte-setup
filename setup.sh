@@ -10,7 +10,7 @@ mkdir src/styles
 
 npx tailwindcss init tailwind.config.cjs
 
-echo "module.exports = {plugins: {autoprefixer: {},tailwindcss: {},},}" > postcss.config.cjs
+echo "module.exports = {\nplugins: {\nautoprefixer: {},\ntailwindcss: {},\n},\n}" > postcss.config.cjs
 
 echo "@tailwind base; @tailwind components; @tailwind utilities;" > src/styles/tailwind.css
 
