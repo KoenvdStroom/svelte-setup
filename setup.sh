@@ -8,14 +8,14 @@ yarn add -D autoprefixer postcss-cli tailwindcss concurrently cross-env
 
 npx tailwindcss init tailwind.config.cjs
 
-"module.exports = {
+echo "module.exports = {
   plugins: {
     autoprefixer: {},
     tailwindcss: {},
   },
 }" > postcss.config.cjs
 
-"@tailwind base;
+echo "@tailwind base;
 @tailwind components;
 @tailwind utilities;" > src/styles/tailwind.css
 
