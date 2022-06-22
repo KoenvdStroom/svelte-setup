@@ -1,6 +1,6 @@
 #!/bin/bash
 
-npm init svelte@next
+npm init svelte
 
 yarn install
 
